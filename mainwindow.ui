@@ -36,19 +36,19 @@
     <addaction name="separator"/>
     <addaction name="separator"/>
    </widget>
-   <widget class="QMenu" name="menuPomoc">
-    <property name="title">
-     <string>Pomoc</string>
-    </property>
-   </widget>
    <widget class="QMenu" name="menuWidok">
     <property name="title">
      <string>Widok</string>
     </property>
    </widget>
+   <widget class="QMenu" name="menuPomoc">
+    <property name="title">
+     <string>Pomoc</string>
+    </property>
+   </widget>
    <addaction name="menuPlik"/>
-   <addaction name="menuPomoc"/>
    <addaction name="menuWidok"/>
+   <addaction name="menuPomoc"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">

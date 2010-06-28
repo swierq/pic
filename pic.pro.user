@@ -77,11 +77,11 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALSA_PLUGINS_DIR=/usr/lib/alsa-lib</value>
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-bfKIxVQ9mj,guid=0ab46ee96f76c082a4a8963c00000050</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-46ceYDJTQ1,guid=025b771282e6813eada5782f00000051</value>
     <value type="QString">DISPLAY=:0.0</value>
     <value type="QString">EDITOR=vim</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-zfsDVV</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-y4S9Kt</value>
     <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/przemek/.gtkrc-1.2-gnome2</value>
     <value type="QString">G_BROKEN_FILENAMES=1</value>
     <value type="QString">HISTCONTROL=erasedups</value>
@@ -109,10 +109,10 @@
     <value type="QString">PWD=/home/przemek</value>
     <value type="QString">QTDIR=/usr/share/qt</value>
     <value type="QString">QT_XFT=true</value>
-    <value type="QString">SESSION_MANAGER=local/tepic:@/tmp/.ICE-unix/2575,unix/tepic:/tmp/.ICE-unix/2575</value>
+    <value type="QString">SESSION_MANAGER=local/tepic:@/tmp/.ICE-unix/2594,unix/tepic:/tmp/.ICE-unix/2594</value>
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SHLVL=2</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-zfsDVV/ssh</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-y4S9Kt/ssh</value>
     <value type="QString">TERM=linux</value>
     <value type="QString">USER=przemek</value>
     <value type="QString">VISUAL=vim</value>
@@ -123,7 +123,7 @@
     <value type="QString">XDG_CONFIG_HOME=/home/przemek/.config</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/local/share:/opt/kde/share</value>
     <value type="QString">XDG_DATA_HOME=/home/przemek/.local/share</value>
-    <value type="QString">XDG_SESSION_COOKIE=dd107fffd0c484dc61aced4249bb8a2b-1277705364.517870-1670224837</value>
+    <value type="QString">XDG_SESSION_COOKIE=dd107fffd0c484dc61aced4249bb8a2b-1277745510.286924-272940853</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
     <value type="QString">/home/przemek/pic/pic.pro</value>
@@ -143,11 +143,11 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ALSA_PLUGINS_DIR=/usr/lib/alsa-lib</value>
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-bfKIxVQ9mj,guid=0ab46ee96f76c082a4a8963c00000050</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-46ceYDJTQ1,guid=025b771282e6813eada5782f00000051</value>
     <value type="QString">DISPLAY=:0.0</value>
     <value type="QString">EDITOR=vim</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-zfsDVV</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-y4S9Kt</value>
     <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/przemek/.gtkrc-1.2-gnome2</value>
     <value type="QString">G_BROKEN_FILENAMES=1</value>
     <value type="QString">HISTCONTROL=erasedups</value>
@@ -175,10 +175,10 @@
     <value type="QString">PWD=/home/przemek</value>
     <value type="QString">QTDIR=/usr/share/qt</value>
     <value type="QString">QT_XFT=true</value>
-    <value type="QString">SESSION_MANAGER=local/tepic:@/tmp/.ICE-unix/2575,unix/tepic:/tmp/.ICE-unix/2575</value>
+    <value type="QString">SESSION_MANAGER=local/tepic:@/tmp/.ICE-unix/2594,unix/tepic:/tmp/.ICE-unix/2594</value>
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SHLVL=2</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-zfsDVV/ssh</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-y4S9Kt/ssh</value>
     <value type="QString">TERM=linux</value>
     <value type="QString">USER=przemek</value>
     <value type="QString">VISUAL=vim</value>
@@ -189,7 +189,7 @@
     <value type="QString">XDG_CONFIG_HOME=/home/przemek/.config</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share:/usr/local/share:/opt/kde/share</value>
     <value type="QString">XDG_DATA_HOME=/home/przemek/.local/share</value>
-    <value type="QString">XDG_SESSION_COOKIE=dd107fffd0c484dc61aced4249bb8a2b-1277705364.517870-1670224837</value>
+    <value type="QString">XDG_SESSION_COOKIE=dd107fffd0c484dc61aced4249bb8a2b-1277745510.286924-272940853</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
    <valuelist key="abstractProcess.arguments" type="QVariantList">

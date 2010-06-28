@@ -28,13 +28,23 @@ MainWindow::MainWindow(QWidget *parent) :
     powiekszAct->setStatusTip(tr("Powieksz zdjecie"));
     connect(powiekszAct, SIGNAL(triggered()), this, SLOT(powieksz()));
 
+    QAction *pomniejszAct = new QAction(tr("&Pomniejsz..."), this);
+    pomniejszAct->setShortcut(tr("Ctrl+-"));
+    pomniejszAct->setStatusTip(tr("Pomniejsz zdjecie"));
+    connect(pomniejszAct, SIGNAL(triggered()), this, SLOT(pomniejsz()));
+
+    QAction *resetAct = new QAction(tr("&1:1..."), this);
+    resetAct->setShortcut(tr("Ctrl+0"));
+    resetAct->setStatusTip(tr("Rozmiar oryginalny"));
+    connect(resetAct, SIGNAL(triggered()), this, SLOT(reset()));
 
     ui->menuPlik->addAction(openAct);
     ui->menuPlik->addAction(closeAct);
     ui->menuPomoc->addAction(aboutAct);
 
     ui->menuWidok->addAction(powiekszAct);
-
+    ui->menuWidok->addAction(pomniejszAct);
+    ui->menuWidok->addAction(resetAct);
     this->image_resize_ratio=1.0;
 }
 
@@ -95,6 +105,7 @@ void MainWindow::pomniejsz(){
 
 void MainWindow::reset(){
     this->image_resize_ratio=1.0;
+    this->RedrawImage();
 }
 
 void MainWindow::about(){
