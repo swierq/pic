@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created: Mon Jun 28 15:58:36 2010
+** Created: Mon Jun 28 20:29:25 2010
 **      by: Qt User Interface Compiler version 4.6.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -34,8 +34,8 @@ public:
     QGraphicsView *v;
     QMenuBar *menuBar;
     QMenu *menuPlik;
-    QMenu *menuPomoc;
     QMenu *menuWidok;
+    QMenu *menuPomoc;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
 
@@ -61,10 +61,10 @@ public:
         menuBar->setGeometry(QRect(0, 0, 770, 25));
         menuPlik = new QMenu(menuBar);
         menuPlik->setObjectName(QString::fromUtf8("menuPlik"));
-        menuPomoc = new QMenu(menuBar);
-        menuPomoc->setObjectName(QString::fromUtf8("menuPomoc"));
         menuWidok = new QMenu(menuBar);
         menuWidok->setObjectName(QString::fromUtf8("menuWidok"));
+        menuPomoc = new QMenu(menuBar);
+        menuPomoc->setObjectName(QString::fromUtf8("menuPomoc"));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -74,8 +74,8 @@ public:
         MainWindow->setStatusBar(statusBar);
 
         menuBar->addAction(menuPlik->menuAction());
-        menuBar->addAction(menuPomoc->menuAction());
         menuBar->addAction(menuWidok->menuAction());
+        menuBar->addAction(menuPomoc->menuAction());
         menuPlik->addSeparator();
         menuPlik->addSeparator();
 
@@ -88,8 +88,8 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0, QApplication::UnicodeUTF8));
         menuPlik->setTitle(QApplication::translate("MainWindow", "Plik", 0, QApplication::UnicodeUTF8));
-        menuPomoc->setTitle(QApplication::translate("MainWindow", "Pomoc", 0, QApplication::UnicodeUTF8));
         menuWidok->setTitle(QApplication::translate("MainWindow", "Widok", 0, QApplication::UnicodeUTF8));
+        menuPomoc->setTitle(QApplication::translate("MainWindow", "Pomoc", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };
